@@ -54,3 +54,8 @@ We truncate at 63 chars because some Kubernetes name fields are limited to this 
 {{- $name := default "odm-pvclaim" .Values.nameOverride -}}
 {{- printf "%s-%s" .Release.Name $name | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
+
+{{- define "odm.test.fullname" -}}
+{{- $name := default "odm-tests" .Values.nameOverride -}}
+{{- printf "%s-%s" .Release.Name $name | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
