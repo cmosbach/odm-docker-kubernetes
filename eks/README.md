@@ -1,4 +1,4 @@
-# Deploying IBM Operational Decision Manager Standard on EKS AWS.
+# Deploying IBM Operational Decision Manager Amazon EKS
 
 This project demonstrates the deployment of an IBM® Operational Decision Manager (ODM) clustered topology on Amazon EKS cloud service. We use Kubernetes and Docker technologies. 
 
